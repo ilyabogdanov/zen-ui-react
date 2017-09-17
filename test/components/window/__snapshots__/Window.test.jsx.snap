@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Window should render 1`] = `
+<div
+  className="zen_ui__window"
+  data-palette="ordinary"
+  data-stretch={true}
+  style={
+    Object {
+      "maxWidth": null,
+      "width": null,
+    }
+  }
+>
+  <div
+    className="zen_ui__window_head"
+  >
+    <div
+      className="zen_ui__stretch_margin"
+    >
+      <div
+        className="zen_ui__horizontal_layout"
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      >
+        <div
+          className="zen_ui__horizontal_layout_column"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <div>
+            <div>
+              <span
+                className="zen_ui__clipped_text"
+              >
+                <span
+                  style={
+                    Object {
+                      "padding": "0 0.7rem",
+                    }
+                  }
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="zen_ui__horizontal_layout_column"
+        >
+          <div
+            style={
+              Object {
+                "padding": "0.08rem 0.08rem 0.16rem 0.08rem",
+                "width": "2.3rem",
+              }
+            }
+          >
+            <div>
+              <div
+                className="zen_ui__button_container"
+                data-stretch="true"
+              >
+                <button
+                  className="zen_ui__button"
+                  data-palette="ordinary"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="zen_ui__vector_icon__close"
+                  />
+                </button>
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="zen_ui__window_body"
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "margin": "1rem",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Window should render 2`] = `
+<div
+  className="zen_ui__window"
+  data-palette="ordinary"
+  data-stretch={false}
+  style={
+    Object {
+      "maxWidth": null,
+      "width": null,
+    }
+  }
+>
+  <div
+    className="zen_ui__window_head"
+  >
+    <div
+      className="zen_ui__stretch_margin"
+    >
+      <div
+        className="zen_ui__horizontal_layout"
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      >
+        <div
+          className="zen_ui__horizontal_layout_column"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <div>
+            <div>
+              <span
+                className="zen_ui__clipped_text"
+              >
+                <span
+                  style={
+                    Object {
+                      "padding": "0 0.7rem",
+                    }
+                  }
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="zen_ui__horizontal_layout_column"
+        >
+          <div
+            style={
+              Object {
+                "padding": "0.08rem 0.08rem 0.16rem 0.08rem",
+                "width": "2.3rem",
+              }
+            }
+          >
+            <div>
+              <div
+                className="zen_ui__button_container"
+                data-stretch="true"
+              >
+                <button
+                  className="zen_ui__button"
+                  data-palette="ordinary"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="zen_ui__vector_icon__close"
+                  />
+                </button>
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="zen_ui__window_body"
+    style={
+      Object {
+        "padding": "1rem",
+      }
+    }
+  >
+    <div
+      style={Object {}}
+    />
+  </div>
+</div>
+`;

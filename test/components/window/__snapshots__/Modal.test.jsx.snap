@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render 1`] = `
+<div
+  className="zen_ui__modal"
+>
+  <div>
+    <div>
+      <div />
+    </div>
+  </div>
+</div>
+`;

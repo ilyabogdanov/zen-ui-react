@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Horizontal Layout should render correctly 1`] = `
+<div
+  className="zen_ui__horizontal_layout"
+  data-divider={undefined}
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": "10px",
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "padding": "1px 2px 3px 4px",
+          "width": "20px",
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={
+      Object {
+        "width": "20%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={
+      Object {
+        "width": "23.33%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={
+      Object {
+        "width": "46.66%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Horizontal Layout should render correctly 2`] = `
+<div
+  className="zen_ui__horizontal_layout"
+  data-divider={undefined}
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Horizontal Layout should render correctly 3`] = `
+<div
+  className="zen_ui__horizontal_layout"
+  data-divider={undefined}
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Horizontal Layout should render correctly 4`] = `
+<div
+  className="zen_ui__horizontal_layout"
+  data-divider={undefined}
+  style={Object {}}
+>
+  <div
+    className="zen_ui__horizontal_layout_column"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": null,
+          "width": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

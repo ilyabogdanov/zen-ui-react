@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vertical Layout row should render correctly with and without padding, with and without height 1`] = `
+<div
+  className="zen_ui__vertical_layout__stretch"
+  data-divider={undefined}
+  style={Object {}}
+>
+  <div
+    className="zen_ui__vertical_layout_row__non_stretch"
+    style={Object {}}
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "height": "40px",
+          }
+        }
+      >
+        <div
+          className="zen_ui__stretch_margin"
+          style={
+            Object {
+              "margin": "10px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="zen_ui__vertical_layout_row__stretch"
+    style={Object {}}
+  >
+    <div>
+      <div>
+        <div
+          className="zen_ui__stretch"
+        >
+          <div
+            className="zen_ui__stretch_margin"
+            style={
+              Object {
+                "margin": "10px",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="zen_ui__vertical_layout_row__non_stretch"
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "padding": "10px",
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className="zen_ui__vertical_layout_row__non_stretch"
+    style={Object {}}
+  >
+    <div
+      style={Object {}}
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Vertical Layout should render correctly with and without stretch row 1`] = `
+<div
+  className="zen_ui__vertical_layout__stretch"
+  data-divider={undefined}
+  style={Object {}}
+>
+  <div
+    className="zen_ui__vertical_layout_row__non_stretch"
+    style={Object {}}
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "height": "40px",
+          }
+        }
+      >
+        <div
+          className="zen_ui__stretch_margin"
+          style={Object {}}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="zen_ui__vertical_layout_row__stretch"
+    style={Object {}}
+  >
+    <div>
+      <div>
+        <div
+          className="zen_ui__stretch"
+        >
+          <div
+            className="zen_ui__stretch_margin"
+            style={Object {}}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="zen_ui__vertical_layout_row__non_stretch"
+    style={Object {}}
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "height": "20px",
+          }
+        }
+      >
+        <div
+          className="zen_ui__stretch_margin"
+          style={Object {}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Vertical Layout should render correctly with and without stretch row 2`] = `
+<div
+  className="zen_ui__vertical_layout__non_stretch"
+  data-divider={undefined}
+  style={Object {}}
+>
+  <div
+    className="zen_ui__vertical_layout_row__non_stretch"
+    style={Object {}}
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "height": "40px",
+          }
+        }
+      >
+        <div
+          className="zen_ui__stretch_margin"
+          style={Object {}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

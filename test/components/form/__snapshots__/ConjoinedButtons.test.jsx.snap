@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Conjoined Buttons container with legal children should render correctly 1`] = `
+<div
+  className="zen_ui__conjoined_buttons"
+>
+  <div
+    className="zen_ui__button_container"
+    data-stretch="false"
+  >
+    <button
+      className="zen_ui__button"
+      data-palette="ordinary"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="zen_ui__button_text"
+      >
+        Push Button
+      </span>
+    </button>
+    <div />
+  </div>
+  <div
+    className="zen_ui__button_container"
+    data-stretch="false"
+  >
+    <button
+      className="zen_ui__button"
+      data-palette="ordinary"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="zen_ui__button_text"
+      >
+        Push Button
+      </span>
+    </button>
+    <div />
+  </div>
+  <div
+    className="zen_ui__button_container"
+    data-stretch="false"
+  >
+    <button
+      className="zen_ui__button"
+      data-palette="ordinary"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      <span
+        className="zen_ui__button_text"
+      >
+        Push Button
+      </span>
+    </button>
+    <div />
+  </div>
+</div>
+`;

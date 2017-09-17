@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Path should render correctly 1`] = `
+<div
+  className="zen_ui__path"
+>
+  <div>
+    <div>
+      <span
+        className="zen_ui__path_item"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        />
+      </span>
+      <span
+        className="zen_ui__path_item"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        />
+      </span>
+      <span
+        className="zen_ui__path_item"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        />
+      </span>
+      <span
+        className="zen_ui__path_item"
+      >
+        <span />
+      </span>
+    </div>
+  </div>
+</div>
+`;
