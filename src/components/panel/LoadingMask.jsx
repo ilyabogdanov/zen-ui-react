@@ -1,5 +1,5 @@
 import React from "react";
-import img from "zen-ui-core-dev/dist/img/loading.gif";
+import img from "zen-ui-core/dist/img/loading.gif";
 
 /**
  * @class
