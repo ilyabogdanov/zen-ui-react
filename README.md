@@ -20,11 +20,11 @@ Setup
 
 Firstly include core package:
 ```
-require("zen-ui-core-dev");
+require("zen-ui-core");
 ```
 Then import components:
 ```
-import { VerticalLayout, VerticalLayoutRow } from "zen-ui-react-dev";
+import { VerticalLayout, VerticalLayoutRow } from "zen-ui-react";
 ```
 Then use components in you template:
 ```JSX
@@ -36,7 +36,7 @@ Then use components in you template:
 Alternatively you can import only `Zen` which is a container
 for all components.
 ```
-import { Zen } from "zen-ui-react-dev";
+import { Zen } from "zen-ui-react";
 ```
 and use dot syntax:
 ```JSX
