@@ -49,6 +49,6 @@ and use dot syntax:
 Examples
 --------
 
-There are examples at [www.zen-ui.org](www.zen-ui.org)
+There are examples at [www.zen-ui.org](http://www.zen-ui.org)
 with sources in the package
 [zen-ui-react-examples](https://github.com/ilyabogdanov/zen-ui-react-examples/)
