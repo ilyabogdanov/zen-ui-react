@@ -1,5 +1,6 @@
 import React from "react";
 import Utils from "../../Utils";
+import Button_Props from "./Button_Props";
 import PropTypes from "prop-types";
 
 const searchArray = function (array, keyField, key) {
@@ -16,7 +17,6 @@ const searchArray = function (array, keyField, key) {
  * @author Ilya Bogdanov <public@ilyabogdanov.ru>
  * @license Apache-2.0
  *
- * @prop {string}   props.palette
  * @prop {boolean}  props.disabled
  * @prop {boolean}  props.stretch
  * @prop {Object[]} props.items
@@ -68,7 +68,7 @@ export default class Combobox extends React.Component {
     }
     render() {
         const { id, name, searchId, _onChange } = this;
-        const { textParameter, valueParameter, stretch, palette } = this.props;
+        const { textParameter, valueParameter, stretch } = this.props;
         const { disabled, activeItemValue, activeItemText, filter } = this.state;
         const filterOnce = function (text) {
             return text.toLowerCase().indexOf(filter.toLowerCase()) !== -1;
@@ -88,8 +88,8 @@ export default class Combobox extends React.Component {
             <div className="zen_ui__combobox__container" data-stretch={stretch}>
                 <div>
                     <ComboboxInput id={id} searchId={searchId} disabled={disabled}/>
-                    <label className="zen_ui__button" data-palette={palette} htmlFor={id}>
-                        <span className="zen_ui__text">
+                    <label className="zen_ui__button" data-palette={Button_Props.palette.ORDINARY} htmlFor={id}>
+                        <span className="zen_ui__button_text">
                             <span>
                                 {activeItemText}
                             </span>

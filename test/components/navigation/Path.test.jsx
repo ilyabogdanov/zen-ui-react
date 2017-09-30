@@ -8,7 +8,7 @@ describe("Path", () => {
     test("should render correctly", () => {
         const e = renderer.create(
             <BrowserRouter>
-            <StaticRouter>
+            <StaticRouter context={{}}>
             <Path>
                 <PathItem to="/"/>
                 <PathItem to="/"/>

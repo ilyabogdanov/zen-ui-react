@@ -33,7 +33,7 @@ document.body.appendChild(div);
 describe("Number Field", () => {
 
     // noinspection JSCheckFunctionSignatures
-    const spy = jest.spyOn(console, "log");
+    const logSpy = jest.spyOn(console, "log");
 
     test("with parent should finish epic test", () => {
 
@@ -58,8 +58,8 @@ describe("Number Field", () => {
             }
         });
         expect(component.find("input").prop("value")).toEqual(123);
-        expect(spy).toHaveBeenCalledTimes(1);
-        spy.mockReset();
+        expect(logSpy).toHaveBeenCalledTimes(1);
+        logSpy.mockReset();
 
         component.find("input").simulate("change", {
             target: {
@@ -70,8 +70,8 @@ describe("Number Field", () => {
             }
         });
         expect(component.find("input").prop("value")).toEqual("");
-        expect(spy).toHaveBeenCalledTimes(1);
-        spy.mockReset();
+        expect(logSpy).toHaveBeenCalledTimes(1);
+        logSpy.mockReset();
 
         component.find("input").simulate("change", {
             target: {
@@ -82,8 +82,8 @@ describe("Number Field", () => {
             }
         });
         expect(component.find("input").prop("value")).toEqual("");
-        expect(spy).toHaveBeenCalledTimes(0);
-        spy.mockReset();
+        expect(logSpy).toHaveBeenCalledTimes(0);
+        logSpy.mockReset();
 
         component.setState({ disabled: true });
         component.find("input").simulate("change", {
@@ -95,8 +95,8 @@ describe("Number Field", () => {
             }
         });
         expect(component.find("input").prop("value")).toEqual("");
-        expect(spy).toHaveBeenCalledTimes(0);
-        spy.mockReset();
+        expect(logSpy).toHaveBeenCalledTimes(0);
+        logSpy.mockReset();
 
         component.setState({ disabled: false });
         component.find("input").simulate("keyPress", {
@@ -111,8 +111,8 @@ describe("Number Field", () => {
             key: "-"
         });
         expect(component.find("input").prop("value")).toEqual(1);
-        expect(spy).toHaveBeenCalledTimes(3);
-        spy.mockReset();
+        expect(logSpy).toHaveBeenCalledTimes(3);
+        logSpy.mockReset();
 
         component.find("input").simulate("keyPress", {
             key: "k"

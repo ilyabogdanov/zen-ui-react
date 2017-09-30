@@ -49,9 +49,9 @@ export default class LinkButton extends React.Component {
             })}
                  data-stretch={stretch ? "true" : (stretchX ? "only_x" : (stretchY ? "only_y" : "false"))}>
                 <Link className={classNames("zen_ui__button", {disabled: disabled})} data-palette={palette} to={to} replace={replace} innerRef={innerRef}>
-                    <span>
+                    <span className="zen_ui__button_text">
                         <span>
-                            <span className="zen_ui__button_text">
+                            <span>
                                 {children}
                             </span>
                         </span>

@@ -8,6 +8,7 @@ exports[`Window should render 1`] = `
   style={
     Object {
       "maxWidth": null,
+      "minWidth": null,
       "width": null,
     }
   }
@@ -106,6 +107,7 @@ exports[`Window should render 2`] = `
   style={
     Object {
       "maxWidth": null,
+      "minWidth": null,
       "width": null,
     }
   }

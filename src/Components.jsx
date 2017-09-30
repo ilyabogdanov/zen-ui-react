@@ -1,5 +1,7 @@
 import React from "react";
 
+import Logger, { LEVEL } from "./Logger";
+
 /**
  * button
  */
@@ -177,5 +179,9 @@ export {
     WindowHead,
 
     // container
-    ScrollArea
+    ScrollArea,
+
+    // logger
+    Logger,
+    LEVEL
 }

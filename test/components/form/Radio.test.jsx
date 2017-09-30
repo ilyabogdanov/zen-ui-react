@@ -1,4 +1,4 @@
-    jest.dontMock("jquery");
+jest.dontMock("jquery");
 import React from "react";
 import renderer from "react-test-renderer";
 import { mount } from "enzyme";
@@ -40,10 +40,10 @@ document.body.appendChild(div);
 describe("Radio", () => {
 
     // noinspection JSCheckFunctionSignatures
-    const spy = jest.spyOn(console, "warn");
+    const warnSpy = jest.spyOn(console, "warn");
 
     // noinspection JSCheckFunctionSignatures
-    const log = jest.spyOn(console, "log");
+    const logSpy = jest.spyOn(console, "log");
 
     test("with parent should finish epic test", () => {
 
@@ -58,8 +58,8 @@ describe("Radio", () => {
         });
         expect(component.find("input").prop("disabled")).toEqual(false);
         expect(component.find("input").prop("value")).toEqual(9);
-        expect(log).toHaveBeenCalledTimes(1);
-        log.mockReset();
+        expect(logSpy).toHaveBeenCalledTimes(1);
+        logSpy.mockReset();
 
         // make it disabled
         component.setState({ disabled: true });
@@ -83,9 +83,9 @@ describe("Radio", () => {
                 )}
             </div>
         );
-        expect(spy).toHaveBeenCalledTimes(2);
-        expect(spy).toHaveBeenCalledWith(RADIO_MESSAGES.READONLY_IS_DISABLED);
-        spy.mockReset();
+        expect(warnSpy).toHaveBeenCalledTimes(2);
+        expect(warnSpy).toHaveBeenCalledWith(RADIO_MESSAGES.READONLY_IS_DISABLED);
+        warnSpy.mockReset();
 
         renderer.create(
             <div>
@@ -100,8 +100,8 @@ describe("Radio", () => {
                 )}
             </div>
         );
-        expect(spy).toHaveBeenCalledTimes(0);
-        spy.mockReset();
+        expect(warnSpy).toHaveBeenCalledTimes(0);
+        warnSpy.mockReset();
 
     });
     test("should correctly disable and check input", () => {

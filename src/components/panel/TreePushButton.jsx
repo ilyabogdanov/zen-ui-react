@@ -8,7 +8,6 @@ import classNames from "classnames/bind";
  * @license Apache-2.0
  *
  * @prop {boolean} props.selected
- * @prop {boolean} props.stretch
  *
  * @prop {*} props.children
  */
@@ -23,10 +22,10 @@ export default class TreePushButton extends React.Component {
     }
     render() {
         const { _onClick } = this;
-        const { selected, children, stretch } = this.props;
+        const { selected, children } = this.props;
         return (
             <button className={classNames("zen_ui__tree__tree_button", { selected: selected })}
-                    data-stretch={stretch}
+                    data-stretch="true"
                     data-style="tree_button"
                     onClick={_onClick}>
                     <span className="zen_ui__clipped_text">

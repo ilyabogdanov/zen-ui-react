@@ -7,20 +7,18 @@ import Utils from "../../Utils";
  * @author Ilya Bogdanov <public@ilyabogdanov.ru>
  * @license Apache-2.0
  *
- * @prop {boolean} props.stretch
- * @prop {boolean} props.scroll
  * @prop {boolean} props.style
  *
  * @prop {*} props.children
  */
 export default class ScrollArea extends React.Component {
     render() {
-        const { stretch, children, scroll, style } = this.props;
+        const { children, style } = this.props;
         let outerStyle = {};
-        outerStyle.overflowY = scroll ? "auto": null;
+        outerStyle.overflowY = "auto";
         Utils.setSafeStyle(style, outerStyle);
         return (
-            <div className={stretch ? "zen_ui__stretch_margin" : null} style={outerStyle}>
+            <div className="zen_ui__stretch_margin" style={outerStyle}>
                 {children}
             </div>
         );

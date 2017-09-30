@@ -27,7 +27,7 @@ class Container extends React.Component {
 describe("Text Field", () => {
 
     // noinspection JSCheckFunctionSignatures
-    const spy = jest.spyOn(console, "log");
+    const logSpy = jest.spyOn(console, "log");
 
     test("with parent should finish epic test", () => {
 
@@ -45,7 +45,7 @@ describe("Text Field", () => {
         component.find("input").simulate("change", {target: {value: "changed"}});
         expect(component.find("input").prop("value")).toEqual("changed");
         component.find("input").simulate("change", {target: {value: null}});
-        expect(spy).toHaveBeenCalledTimes(2);
+        expect(logSpy).toHaveBeenCalledTimes(2);
     });
     test("should correctly set value", () => {
 

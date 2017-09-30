@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
  * @license Apache-2.0
  *
  * @prop {boolean} props.selected
- * @prop {boolean} props.stretch
  *
  * @prop {object|string} props.to
  * @prop {boolean} props.replace
@@ -18,10 +17,10 @@ import { Link } from "react-router-dom";
  */
 export default class TreeLinkButton extends React.Component {
     render() {
-        const { selected, children, stretch, to, replace, innerRef } = this.props;
+        const { selected, children, to, replace, innerRef } = this.props;
         return (
             <Link className={classNames("zen_ui__tree__tree_button", { selected: selected })}
-                  data-stretch={stretch}
+                  data-stretch="true"
                   data-style="tree_button"
                   to={to}
                   replace={replace}

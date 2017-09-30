@@ -65,7 +65,7 @@ export default class ToggleRadioButton extends React.Component {
             })}
                  data-stretch={stretch ? "true" : (stretchX ? "only_x" : (stretchY ? "only_y" : "false"))}>
 
-                <input className="toggle_button_input"
+                <input className="zen_ui__toggle_button_input"
                        type="radio"
                        disabled={disabled}
                        id={id}
@@ -78,9 +78,9 @@ export default class ToggleRadioButton extends React.Component {
                        data-palette={palette}
                        htmlFor={id}>
 
-                    <span>
+                    <span className="zen_ui__button_text">
                         <span>
-                            <span className="zen_ui__button_text">
+                            <span>
                                 {children}
                             </span>
                         </span>

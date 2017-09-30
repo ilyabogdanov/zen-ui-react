@@ -23,7 +23,7 @@ describe("Conjoined Buttons container", () => {
     });
     test("with legal children should render correctly", () => {
         const e = renderer.create(
-            <ConjoinedButtons height="100%">
+            <ConjoinedButtons>
                 <PushButton onClick={function () {}}>Push Button</PushButton>
                 {[1,2].map(e=>{
 

@@ -13,6 +13,7 @@ import { COMMON_MESSAGES, TEXT_MESSAGES } from "../../Messages";
  * @prop {string} props.padding
  * @prop {string} props.x
  * @prop {string} props.y
+ * @prop {object} props.style
  *
  * @prop {*} props.children
  */
